@@ -6,10 +6,10 @@
 
     steps:
       -name: code checkout
-        uses: actions/checkout@v3
+       uses: actions/checkout@v3
 
       -name: setup python
-        uses: actions/setup-python@v
+       uses: actions/setup-python@v
         with:
           python-version: '3.9'
       -name: install flake8
